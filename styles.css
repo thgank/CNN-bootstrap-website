@@ -1,0 +1,42 @@
+/* Add custom styles here */
+.jumbotron {
+    background-image: url('https://wallpapers.com/images/hd/cnn-blue-live-jsajfrw8fbu94fs5.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
