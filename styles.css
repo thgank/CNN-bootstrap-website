@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
 .jumbotron {
     background-image: url('https://wallpapers.com/images/hd/cnn-blue-live-jsajfrw8fbu94fs5.jpg');
     background-size: cover;
@@ -39,3 +49,10 @@ p {
 .btn-primary:hover {
     background-color: #2980b9;
 }
+
+.carousel-image {
+    width: 100px; 
+    height: 600px; 
+    object-fit: cover; 
+}
+
